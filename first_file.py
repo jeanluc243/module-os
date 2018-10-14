@@ -17,6 +17,7 @@ for folder in folders:
 	print(sizes)
 	os.chdir(current_path)
 print(folders)
+print("hello guys")
 max_index=0
 for i in range(len(sizes)-1):
 	if sizes[i]<sizes[i+1]:
